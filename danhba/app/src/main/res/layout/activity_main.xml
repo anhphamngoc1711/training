@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <EditText
+        android:id="@+id/edt_name"
+        android:layout_marginBottom="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/input_name"/>
+    <EditText
+        android:id="@+id/edt_number"
+        android:layout_marginBottom="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/input_number"/>
+    <TextView
+        android:layout_marginBottom="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/gender"
+        android:textSize="15sp"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:checked="true"
+            android:id="@+id/rbtn_male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/male" />
+
+        <RadioButton
+            android:id="@+id/rbtn_female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/female" />
+    </RadioGroup>
+
+    <Button
+        android:onClick="addContact"
+        android:id="@+id/btn_add_contact"
+        android:padding="24dp"
+        android:layout_margin="16dp"
+        android:background="#0DEAAC"
+        android:textColor="#020000"
+        android:layout_gravity="center"
+        android:text="@string/add_context"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="OnClick" />
+    <ListView
+        android:id="@+id/lv_context"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:orientation="vertical"
+tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Đăng nhập hệ thống"
+        android:textSize="30sp"
+        android:textColor="#D61818"/>
+
+    <EditText
+        android:id="@+id/edEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/edPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textStyle="bold"
+        android:inputType="textPassword"/>
+    <CheckBox
+        android:id="@+id/cbRemember"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Remember password"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/btLogin"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#0A0B0B"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorAccent"/>
+
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Myapplication01</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="t1808m">T1808M</string>
+    <string name="login">LOGIN</string>
+</resources>

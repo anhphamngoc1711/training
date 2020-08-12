@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name" translatable="false">danhba</string>
+    <string name="add_context" translatable="false">Add Context</string>
+    <string name="female" translatable="false">Female</string>
+    <string name="male" translatable="false">Male</string>
+    <string name="gender" translatable="false">Gender</string>
+    <string name="input_number" translatable="false">Input number</string>
+    <string name="input_name" translatable="false">Input name</string>
+</resources>

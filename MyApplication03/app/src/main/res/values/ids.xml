@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btnClick" type="id" />
+    <item name="btnCannel" type="id" />
+    <item name="tvHello" type="id" />
+</resources>
